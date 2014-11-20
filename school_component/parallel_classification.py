@@ -78,4 +78,4 @@ hs = pandas.read_csv('hs.csv')
 list3 = ['perEconDisadv', 'perLEP', 'teacherStudentRatio']
 list4 = ['perEconDisadv', 'perLEP']
 #classify(list15, hs, kernel = 'poly', plot = True)
-test_over_powerset(list4, hs, file_name = 'list4.txt')
+test_over_powerset(list4, hs, file_name = 'list4test.txt')
